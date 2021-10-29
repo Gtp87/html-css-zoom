@@ -8,7 +8,9 @@ html {
     font-size: 100%;
 }
 
-
+body {
+    background-color: black;
+}
 /* nav */
 
 header {
@@ -42,11 +44,22 @@ header {
     height: calc(100vh - 110px);
     margin: auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .main-img {
     display: flex;
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    padding: 0.3em;
+
+}
+
+.name {
+    padding-left: 0.3em;
+    padding-bottom: 0.3em;
+    color: white;
 }
 
 .p-relative {
